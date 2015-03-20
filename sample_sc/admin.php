@@ -7,7 +7,7 @@ check_access($_SESSION['role'], "administrator");
 ?>
 <html>
 <body>
-<h1>Admin - Manage Members @</h1>
+<h1>Admin - Manage Members</h1>
 <?php
 $connect=mysqli_connect("localhost","root","","demo");
 if (!$connect){
